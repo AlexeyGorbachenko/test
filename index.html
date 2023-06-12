@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/images/Shape.png" type="image/icon" />
+    <title>Powercode Academy</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <!-- LOGO========================================= -->
+        <div>
+          <img src="./images/Shape.png" alt="Logo" class="logo" />
+        </div>
+        <div class="header__logo-text">
+          <img
+            src="./images/POWERCODE.png"
+            alt="Logo"
+            class="logo__powercode"
+          />
+          <img src="./images/ACADEMY.png" alt="Logo" class="logo__academy" />
+        </div>
+        <!-- <p>Powercode academy</p> -->
+      </div>
+      <!-- Button=========================================== -->
+
+      <ul class="header__items_right">
+        <li class="header__item">
+          <svg class="nav-icones" width="12" height="14">
+            <use href="./images/symbol.svg#icon3"></use>
+          </svg>
+          <p class="header__item-text">28 декабря</p>
+        </li>
+        <li class="header__item">
+          <svg class="nav-icones" width="12" height="14">
+            <use href="./images/symbol.svg#icon1"></use>
+          </svg>
+          <p class="header__item-text">3,5 часа</p>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container">
+        <section class="left__block">
+          <div class="text content">
+            <div class="left__block-button">
+              <svg class="nav-icones" width="12" height="14">
+                <use href="./images/symbol.svg#icon2"></use>
+              </svg>
+              <p>Вебинар</p>
+            </div>
+            <h1 class="left__block-title">Front-end</h1>
+            <div class="left__block-b">
+              <div class="left__block-label">
+                <p class="left__block-text_l">c нуля</p>
+              </div>
+              <div>
+                <p class="left__block-text">легкий старт в IT профессии</p>
+              </div>
+            </div>
+            <div class="container__text">
+              <p class="text">
+                Узнайте какими навыками должен обладать фронтенд разработчик в
+                2022 году и как начать карьеру в востебованной профессии с
+                зраплатой <span class="left__block-wage"> от 1 000$ </span>
+              </p>
+            </div>
+          </div>
+          <div class="left__block-media">
+            <div class="left__block-speaker">
+              <img
+                src="./images/speaker.png"
+                alt="Photo Kirill Kasatonov "
+                width="46.38"
+                height="43.63"
+              />
+              <div>
+                <h4 class="left__block-text-h4">
+                  Киирилл
+                  <span class="left__block-text-h4-color">Касатонов</span>
+                </h4>
+                <p class="left__block-speaker-text">
+                  6 лет коммерческого опыта с такими компаниями как
+                  Mercedes-Benz и другими крупными корпорациями
+                </p>
+              </div>
+            </div>
+            <div class="left__block-bonus">
+              <img src="./images/bonus.png" alt="Photo Gift" />
+              <div>
+                <h4 class="left__block_text-h4">Бонус за резистрацию</h4>
+                <p class="left__block_text">
+                  PDF-файл "5 преимуществ профессии фронтенд разработчика"
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="right_block">
+          <div class="container__block">
+            <div class="right_block__text">
+              <h3 class="right_block-h3">
+                Запишитесь <span class="right_block-h3-color">бесплатно</span> и
+                получите подарок
+              </h3>
+            </div>
+            <form id="allform" class="form">
+              <div class="form">
+                <input
+                  id="formName"
+                  type="text"
+                  class="form-input _req"
+                  required
+                  placeholder="Ваше имя и фамилия"
+                />
+              </div>
+              <div id="login" onsubmit="process(event)" class="form">
+                <input
+                  id="phone"
+                  type="tel"
+                  name="phone"
+                  required
+                  class="form-input _req"
+                  placeholder="Ваш номер телефона"
+                />
+              </div>
+              <div class="form">
+                <input
+                  id="formEmail"
+                  type="text"
+                  name="email"
+                  required
+                  class="form-input _req _email"
+                  placeholder="Ваш email"
+                />
+              </div>
+              <button class="button" type="submit">Записаться бесплатно</button>
+            </form>
+            <p class="block__text">
+              Нажимая на кнопку я согашаюсь<br />
+              <a href="#" class="block__text"> с политикой конфидециальности</a>
+            </p>
+          </div>
+          <div class="icons">
+            <div class="icons__position">
+              <div class="position__left">
+                <div>
+                  <img src="./images/ellipse178.png" alt="css_dot" />
+                </div>
+                <div>
+                  <img
+                    src="./images/1452px-CSS3_logo_and_wordmark.png"
+                    alt="css"
+                    width="60.4"
+                    height="85.45"
+                  />
+                </div>
+              </div>
+
+              <div class="position__left">
+                <div>
+                  <img src="./images/ellipse185.png" alt="sublime_dot" />
+                </div>
+                <div>
+                  <img
+                    src="./images/1505369583_sublime-text.png"
+                    alt="sublime"
+                    width="53.93"
+                    height="53.93"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="icons__position-right">
+              <div class="position__right">
+                <div>
+                  <img src="./images/ellipse184.png" alt="html5_dot" />
+                </div>
+                <div>
+                  <img
+                    src="./images/1024px-HTML5_logo_and_wordmark.png"
+                    alt="html5"
+                    width="88.28"
+                    height="88.28"
+                  />
+                </div>
+              </div>
+
+              <div class="position__right">
+                <div>
+                  <img src="./images/ellipse183.png" alt="js_dot" />
+                </div>
+                <div>
+                  <img
+                    src="./images/javascript.png"
+                    alt="js"
+                    width="61.89"
+                    height="72.94"
+                  />
+                </div>
+              </div>
+
+              <div class="position__right-bottom">
+                <div>
+                  <img src="./images/ellipse186.png" alt="vsc" />
+                </div>
+                <div>
+                  <img
+                    src="./images/Visual_Studio_Code_1.35_icon.png"
+                    alt="vsc"
+                    width="60.62"
+                    height="60.62"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="light_left"></div>
+      <div class="light_right"></div>
+    </main>
+    <footer class="footer">
+      <p>front-end developer</p>
+    </footer>
+  </body>
+  <!-- <script src="js/script.js"></script> -->
+  <script>
+    const phoneInputField = document.querySelector("#phone");
+    const phoneInput = window.intlTelInput(phoneInputField, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
+</html>

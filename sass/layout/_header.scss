@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  margin: 30px 0px 36px 28px;
+  // width: 1040px;
+  height: 104px;
+  padding: 24px 0 24px;
+  position: relative;
+  z-index: +1;
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    width: 1040px;
+    height: 104px;
+    margin: 10px 200px 116px 170px;
+  }
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 27.68px;
+  height: 32px;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    width: 49.87px;
+    height: 56px;
+  }
+}
+
+.logo__academy {
+  width: 65.55px;
+  height: 7px;
+}
+@media screen and (min-width: 1200px) {
+  .logo__academy {
+    width: 118.13px;
+    height: 12.25px;
+  }
+}
+.logo__powercode {
+  width: 65.55px;
+  height: 7px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__powercode {
+    width: 118.13px;
+    height: 12.25px;
+  }
+}
+
+.header__logo-text {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.header__items_right {
+  display: flex;
+  margin-left: 35px;
+  gap: 6px;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .header__items_right {
+    margin-left: 460px;
+    gap: 18px;
+  }
+}
+
+.header__item {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+  background: #302e5a;
+  border-radius: 10px;
+  width: 88px;
+  height: 24px;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__item {
+    width: 141px;
+    height: 40px;
+  }
+}
+
+.header__item-text {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 8px;
+  color: var(--text-color);
+}
+@media screen and (min-width: 1200px) {
+  .header__item {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

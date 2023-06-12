@@ -1,0 +1,45 @@
+.light_left {
+  background: var(--circle-color);
+  opacity: 0.5;
+  filter: blur(103.131px);
+  transform: rotate(9.41deg);
+}
+
+@media screen and (min-width: 1200px) {
+  .light_left {
+    position: absolute;
+    width: 399.01px;
+    height: 400.31px;
+    left: -31.33px;
+    bottom: 489.69px;
+  }
+}
+
+.light_right {
+  // position: absolute;
+  width: 490.65px;
+  height: 393.23px;
+    left: 0px;
+      bottom: 142.77px;
+position: relative;
+  background: var(--circle-color);
+  opacity: 0.8;
+  filter: blur(103.131px);
+  transform: rotate(9.41deg);
+  z-index: -1;
+}
+
+@media screen and (min-width: 1200px) {
+  .light_right {
+    position: absolute;
+    width: 490.65px;
+    height: 393.23px;
+    left: 1000px;
+    bottom: 342.77px;
+
+    background: var(--circle-color);
+    opacity: 0.8;
+    filter: blur(103.131px);
+    transform: rotate(9.41deg);
+  }
+}

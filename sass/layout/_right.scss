@@ -1,0 +1,115 @@
+.right_block {
+    display: flex;
+    position: relative;
+    z-index: +1;
+    align-items: center;
+}
+
+.right_block-h3,
+.right_block-h3-color {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.right_block__text {
+    padding: 50px 60px 0 61px;
+    margin-bottom: 20px;
+}
+
+.right_block-h3-color {
+    color: var(--title-color);
+}
+
+.container__block {
+    width: 366px;
+    height: 474px;
+    background: #303a53;
+    border-radius: 10px;
+    margin-top: -300px;
+}
+
+@media screen and (min-width: 1200px) {
+.container__block {
+        margin-top: 0px;
+    }
+}
+
+
+.button {
+    width: 248px;
+    height: 51px;
+    border: none;
+    background: #0048FF;
+    border-radius: 5px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    transition: box-shadow 400ms ease-in, color 400ms ease-in, background-color 400ms ease-in;
+    &:focus {
+            background: #490410;
+        }
+    
+        &:active {
+            background: #036c40;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    .button {
+        background: var(--title-color);
+    }
+}
+
+.form-input {
+    width: 286px;
+    height: 46px;
+    border: none;
+    background: #272d3d;
+    border-radius: 4.48087px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #D7D7D7;
+}
+
+.form {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block__text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 149%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-input._error {
+    box-shadow: 1 1 15px red;
+    background: #b8a6f1;
+}
+
+.form * {
+    outline: none;
+}
+
+.form-input:focus {
+    background: #070b1c;
+}
